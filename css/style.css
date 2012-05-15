@@ -154,7 +154,8 @@ legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 
 /*
- * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)  
+ * 2. Always define height & width to your input field beacuse every browser render input field according to them 
  */
 
 button, input { line-height: normal; }

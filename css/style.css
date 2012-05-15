@@ -243,7 +243,9 @@ td { vertical-align: top; }
   /* Style adjustments for viewports that meet the condition */
 }
 
-
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+/* CSS Styles that only apply on webkit-based browsers (Chrome, Safari) */  
+}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
